@@ -125,8 +125,8 @@ h1{
 }
 
 .signup-btn:hover,.login-btn:hover{
-    background: #6906fe;
-    transform: scale(1.02);
+    background: #5400d2;
+    transform:scale(1.05);
 }
 
 .footer-text{
@@ -145,16 +145,21 @@ h1{
     transition: .3s ease;
 }
 
+
 @media (max-width: 768px) {
     .main-card {
-        flex-direction: column;
         width: 90%;
-        height: auto;
+        height: 500px ;
     }
 
-    .form-side, .img-side {
+    .form-side{
         width: 100%;
-        height: auto;
+        height: 100%;
+    }
+
+    .img-side{
+        height: 100%;
+        width: 100%;
     }
 
     .img-container {
